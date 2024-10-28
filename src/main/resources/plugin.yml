@@ -1,0 +1,5 @@
+name: HologramAPI
+version: '${version}'
+main: dev.var.holograms.HologramAPIPlugin
+author: [mynameisvar]
+depend: [ProtocolLib]
