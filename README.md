@@ -52,6 +52,3 @@ HologramAPIPlugin.getInstance().getHologramManager().removeHologram(hologram, pl
 ## Зависимости
 
 - [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/): библиотека, необходимая для работы с пакетами.
-
-## LICENSE
-Этот проект лицензирован под MIT License - смотрите файл [LICENSE](LICENSE) для подробностей.
