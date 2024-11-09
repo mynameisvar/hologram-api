@@ -102,7 +102,7 @@ public class Hologram {
         metadataPacket.getIntegers().write(0, entityId);
         metadataPacket.getDataWatcherModifier().write(0, watcher);
 
-        val lineHeight = 0.25;
+        double lineHeight = 0.25;
         metadataPacket.getDoubles().write(1, location.getY() + line * lineHeight);
 
         protoManager.sendServerPacket(player, metadataPacket);
